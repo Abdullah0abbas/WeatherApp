@@ -152,3 +152,36 @@ body{
 .search input::placeholder{
     color: white;
 }
+
+@media (max-width:412px) {
+    .container{
+        width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:360px) {
+    .container{
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:311px){
+    .container{
+        width: 270px;
+        margin: 0 auto;
+    }
+    .info-block-label{
+        width: 40%;
+    }
+    .info-block-label img{
+        width: 1.2em;
+    }
+    .info-block-label span{
+        display: none;
+    }
+    .info-block-value{
+        font-size: 15px;
+    }
+}
